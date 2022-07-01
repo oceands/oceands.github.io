@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <li><a href="AboutMe.html">About me</a></li>
         <li><a href="PlacesVisited.html">Places visited</a></li>
         <li><a href="MyHobbies.html">My Hobbies</a></li>
-        <li><a href="Proffesional_Life.html">Proffesional Life</a></li>
+        <li><a href="Proffesional_Life.html">Professional Life</a></li>
         <li><a href="Contactme.html">Contact me</a></li>
         <li><a href="CV.xml">My CV</a></li>
       </ul>
