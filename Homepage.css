@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Righteous&display=swap');
+
+
+body{
+  margin: 0;
+  padding:0;
+  background-image:url('Assets/maxresdefault (1).jpg');
+  background-repeat: repeat;
+  cursor: url('Assets/cursor.png'), auto;
+}
+
+
+#NavItems
+{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+background-color: #1d1135;
+
+}
+li
+{
+  display: inline-block;
+
+}
+
+li a
+{
+
+  text-decoration: none;
+  width:px;
+  color: white;
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+
+  border-color: black;
+
+}
+
+li a:hover
+{
+color: #a473d8;
+text-decoration: none;
+cursor: url('Assets/cursor-click.png'), auto;
+}
+
+li a:active
+{
+cursor: url('Assets/cursor-click.png'), auto;
+}
+
+.Page
+{
+background-image:url('Assets/bg.jpg');
+padding: 15px;
+height: 420px;
+width: 1300px;
+margin: auto;
+ border-radius: 10px;
+
+}
+
+.Text{
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-weight:lighter;
+  width: 50%;
+   float: left;
+   letter-spacing: 2px;
+}
+
+h1
+{
+  font-size: 60px;
+}
+
+.Imageh
+{
+width:50%;
+float: left;
+}
+
+#Butt1{
+  font-family: 'Press Start 2P', cursive;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  border-radius:5px;
+}
+
+#Butt1:hover{
+    background-color: purple;
+    color: white;
+    cursor: url('Assets/cursor.png'), auto;
+}
+
+#Butt1:active{
+  cursor: url('Assets/cursor-click.png'), auto;
+
+}
+.lower_Page{
+  padding: 15px;
+  height: 1200px;
+  width: 1300px;
+  background-color:#7b337d;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.low_head{
+  color: white;
+}
+
+th{
+      font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 40px;
+    background-color: none;
+
+}
+
+td{
+    background-color: #5b2558;
+    border-radius: 5px;n
+}
+table{
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 40px;
+}
+
+label{
+  font-family: 'Press Start 2P', cursive;
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+#b1,#b2,#b3,#b4,#b5,#b6{
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  float: right;
+  height: 30px;
+  width:30px;
+  border-radius: 50%;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b5:hover,#b6:hover{
+  background-color: purple;
+  color: white;
+  cursor: url('Assets/cursor.png'), auto;
+}
+#b1:active,#b2:active,#b3:active,#b4:active,#b5:active,#b6:active{
+  cursor: url('Assets/cursor-click.png'), auto;
+}
+
+ol li{
+  display: block;
+}
+
+.Lower_text{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+.Lower_text h1{
+  font-size: 60px;
+  padding-left: 5px;
+}
+
+.Lower_text li{
+    line-height: 30px;
+}
+
+#sheild{
+  float:left;
+  bottom:  10px;
+  padding-right: 40px;
+}

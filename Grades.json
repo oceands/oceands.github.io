@@ -1,0 +1,158 @@
+{
+  "Grades":
+  [
+    {
+      "ID":1,
+      "YEAR":"2019",
+      "SUB":"GED 010",
+      "MARK":"80",
+      "GRADE":"D"
+    }
+    ,
+  {
+    "ID":2,
+    "YEAR":"2019",
+    "SUB":"MATH070",
+    "MARK":"50",
+    "GRADE":"P"
+  }
+  ,
+  {
+  "ID":3,
+  "YEAR":"2019",
+  "SUB":"ENVI030",
+  "MARK":"72",
+  "GRADE":"C"
+  }
+  ,
+  {
+  "ID":4,
+  "YEAR":"2019",
+  "SUB":"CSIT113",
+  "MARK":"52",
+  "GRADE":"P"
+  }
+  ,
+  {
+  "ID":5,
+  "YEAR":"2020",
+  "SUB":"CSIT114",
+  "MARK":"66",
+  "GRADE":"C"
+}
+,
+{
+"ID":6,
+"YEAR":"2020",
+"SUB":"CSIT111",
+"MARK":"61",
+"GRADE":"C"
+}
+,
+{
+"ID":7,
+"YEAR":"2020",
+"SUB":"ARTS035",
+"MARK":"60",
+"GRADE":"P"
+}
+,
+{
+"ID":8,
+"YEAR":"2020",
+"SUB":"CSIT212",
+"MARK":"76",
+"GRADE":"D"
+}
+,
+{
+"ID":9,
+"YEAR":"2020",
+"SUB":"CSIT127",
+"MARK":"72",
+"GRADE":"C"
+}
+,
+{
+"ID":10,
+"YEAR":"2020",
+"SUB":"CSIT115",
+"MARK":"70",
+"GRADE":"C"
+}
+,
+{
+"ID":11,
+"YEAR":"2019",
+"SUB":"MATH070",
+"MARK":"50",
+"GRADE":"P"
+}
+,
+{
+"ID":12,
+"YEAR":"2021",
+"SUB":"STAT131",
+"MARK":"72",
+"GRADE":"C"
+}
+,
+{
+"ID":13,
+"YEAR":"2021",
+"SUB":"CSCI262",
+"MARK":"75",
+"GRADE":"D"
+}
+,
+{
+"ID":14,
+"YEAR":"2021",
+"SUB":"CSCI251",
+"MARK":"76",
+"GRADE":"D"
+}
+,
+{
+"ID":15,
+"YEAR":"2021",
+"SUB":"MATH221",
+"MARK":"59",
+"GRADE":"P"
+}
+,
+{
+"ID":16,
+"YEAR":"2021",
+"SUB":"CSIT226",
+"MARK":"68",
+"GRADE":"C"
+}
+,
+{
+"ID":17,
+"YEAR":"2021",
+"SUB":"CSIT214",
+"MARK":"76",
+"GRADE":"D"
+}
+,
+{
+"ID":18,
+"YEAR":"2021",
+"SUB":"CSIT121",
+"MARK":"60",
+"GRADE":"P"
+}
+,
+{
+"ID":19,
+"YEAR":"2021",
+"SUB":"CSCI203",
+"MARK":"76",
+"GRADE":"D"
+}
+
+  ]
+
+}

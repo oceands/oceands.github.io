@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="Contactme.css">
+
+    <script type="text/javascript">
+    var db = openDatabase('mydb', '1.0', 'Test DB', 2 * 1024 * 1024);
+
+       var email=getElementById('Email');
+       var fname=getElementById('name_field1');
+       var lname=getElementById('name_field2');
+
+
+
+       function createLocalDB(){
+            db.transaction(
+                function (transaction) {
+                    transaction.executeSql('CREATE TABLE IF NOT EXISTS practice(id INTEGER NOT NULL
+ PRIMARY KEY AUTOINCREMENT, Fname VARCHAR, Lname VARCHAR, Email Varchar);',
+  [],
+ function dataHandler(transaction, results){},
+ function errorHandler(transaction, error){
+  console.error("Error creating table: " + error.code +": " + error.message);
+ }
+  );
+  }
+  );
+ }
+    </script>
+
+  </head>
+  <body onload='createLocalDB();'>
+    <br>
+
+    <div class="NavBar">
+        <ul id="NavItems">
+
+          <li><a href="Homepage.html">Home Page</a></li>
+          <li><a href="AboutMe.html">About me</a></li>
+          <li><a href="PlacesVisited.html">Places visited</a></li>
+          <li><a href="MyHobbies.html">My Hobbies</a></li>
+          <li><a href="Proffesional_Life.html">Proffesional Life</a></li>
+          <li><a href="Contactme.html">Contact me</a></li>
+          <li><a href="CV.xml">My CV</a></li>
+        </ul>
+      </div>
+    <br>
+
+    <div class="Text1">
+
+    <form class="F1" action="Form.php" method="post" >
+      <div class="sub1">
+
+      <div class="Feild_1">
+      <div class="nes-field">
+  <label for="name_field1">First Name</label>
+  <input type="text" name="name" id="name_field1" class="nes-input" required>
+    </div>
+    </div>
+
+    <div class="Feild_2">
+    <div class="nes-field">
+  <label for="name_field2">Last Name</label>
+  <input type="text" name="Lname" id="name_field2" class="nes-input" required>
+  </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<div class="Feild_3">
+<div class="nes-field">
+<label for="Email">Email Adress</label>
+<input type="text" name="Email" id="Email" class="nes-input" required>
+</div>
+</div>
+<br>
+<div class="Feild_4">
+<div class="nes-field">
+<label for="org">Organisation Name</label>
+<input type="text" name="Org" id="org" class="nes-input"required>
+</div>
+</div>
+<br>
+<div class="Feild_5">
+  <label for="textarea_field">Message</label>
+<textarea id="textarea_field" name="Message" rows="10"class="nes-textarea"></textarea>
+</div>
+
+</div>
+
+<div class="sub2">
+
+  <div class="file_1">
+
+    <label class="nes-btn">
+      <span>Select your file</span>
+      <input id="file1"type="file" name="file1" >
+      <label for="file1"></label>
+    </label>
+
+  </div>
+
+  <div class="button_1">
+    <button id="submit"type="submit" class="nes-btn is-success" onclick="">Submit</button>
+  </div>
+
+<p id="End">Thank you for visiting my site</p>
+<i class="nes-octocat animate"></i>
+<br>
+<br>
+<p id=End_1>You can also get in touch with me through:</p>
+<div class="Social handels">
+  <a href="https://www.instagram.com/ocean.ds/" target="_blank">
+  <i class="nes-icon instagram is-large"></i></a>
+  <a href="mailto:osd331@uowmail.edu.au" target="_blank">
+  <i class="nes-icon gmail is-large"></i></a>
+  <a href="https://github.com/oceands" target="_blank">
+  <i class="nes-icon github is-large"></i></a>
+</div>
+</div>
+
+    </form>
+
+
+    </div>
+
+  </body>
+</html>

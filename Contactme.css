@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Righteous&display=swap');
+@import url('https://unpkg.com/nes.css@2.3.0/css/nes.min.css');
+
+body{
+  margin: 0;
+  padding:0;
+  background-image:url('Assets/maxresdefault (1).jpg');
+  background-repeat: repeat;
+}
+
+#NavItems
+{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+background-color: #1d1135;
+
+}
+li
+{
+  display: inline-block;
+
+}
+
+li a
+{
+
+  text-decoration: none;
+  width:px;
+  color: white;
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+
+  border-color: black;
+
+}
+li a:hover
+{
+color: #a473d8;
+  text-decoration: none;
+}
+.Text1{
+  padding: 15px;
+  height: 770px;
+  width: 1300px;
+  background-color:#7b337d;
+  margin:auto;
+  border-radius: 10px;
+}
+
+
+.sub1{
+    width: 630px;
+
+      float: left;
+      padding: 20px;
+}
+.sub2{
+    width: 630px;
+
+      float: left;
+      padding: 20px;
+}
+.Feild_1,.Feild_2{
+  color: white;
+  width: 200px;
+  display:inline-block;
+  float: left;
+  padding: 10px;
+}
+
+.Feild_3,.Feild_4,.Feild_5{
+  border-color: white;
+  color: white;
+  width: 500px;
+  padding: 10px;
+}
+
+.button_1{
+    padding: 10px;
+}
+
+ #file1{
+  padding: 30px;
+}
+
+#End{
+  font-size: 30px;
+  color: white;
+}
+
+#End_1{
+  font-size: 18px;
+  color: white;
+}

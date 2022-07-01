@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Righteous&display=swap');
+@import url('https://unpkg.com/nes.css@2.3.0/css/nes.min.css');
+
+body{
+  margin: 0;
+  padding:0;
+  background-image:url('Assets/maxresdefault (1).jpg');
+  background-repeat: repeat;
+}
+
+#NavItems
+{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+background-color: #1d1135;
+
+}
+li
+{
+  display: inline-block;
+
+}
+
+li a
+{
+
+  text-decoration: none;
+  width:px;
+  color: white;
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+
+  border-color: black;
+
+}
+li a:hover
+{
+color: #a473d8;
+  text-decoration: none;
+}
+/**/
+.Text1{
+  padding: 15px;
+  height: 550px;
+  width: 1300px;
+  background-color:#7b337d;
+  margin:auto;
+  border-radius: 10px;
+}
+#me{
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+.games{
+  list-style-type: none;
+  text-align: center;
+}
+.games li
+{
+  display: inline-block;
+  line-height: 5px;
+}
+.Games_E{
+  padding: 15px;
+  height: 550px;
+  width: 1300px;
+  background-color:#7b337d;
+  margin:auto;
+  border-radius: 10px;
+}
+
+.Mystats{
+  padding: 15px;
+  height: 700px;
+  width: 1300px;
+  background-color:#7b337d;
+  margin:auto;
+  border-radius: 10px;
+}
+
+
+
+#cont2{
+  height:670px;
+}
+
+
+
+.Left{
+    width: 500px;
+
+      float: left;
+      padding: 20px;
+}
+.Right{
+    width: 500px;
+
+      float: right;
+      padding: 20px;
+}

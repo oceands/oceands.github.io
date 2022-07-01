@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Places Visited</title>
+    <link rel="stylesheet" href="PlacesVisited.css">
+
+    <script type="text/javascript">
+  var image = [];
+  image[0]="Assets/Bang1.jpeg";
+  image[1]="Assets/Bang2.jpeg"
+  image[2]="Assets/Bang3.jpeg"
+  image[3]="Assets/Bang4.jpeg"
+  var i = 0;
+
+  var image1 = [];
+  image1[0]="Assets/Mal1.jpeg";
+  image1[1]="Assets/Mal2.jpeg"
+  image1[2]="Assets/Mal3.jpeg"
+  image1[3]="Assets/Mal4.jpeg"
+  var j = 0;
+
+  function prev()
+  {
+  	if(i <= 0)
+    {
+      i = image.length-1;
+    }
+    else {
+      i--;
+    }
+  	return setImg();
+  }
+
+  function next()
+  {
+  	if(i >= image.length-1)
+    {
+      i = 0;
+    }
+    else {
+      	i++;
+    }
+  	return setImg();
+  }
+
+  function setImg()
+  {
+    var x= image[i];
+   document.slider.src=x;
+  }
+  //
+  function prev1()
+  {
+    if(j <= 0)
+    {
+      j = image1.length-1;
+    }
+    else {
+      j--;
+    }
+    return setImg1();
+  }
+
+  function next1()
+  {
+    if(j >= image1.length-1)
+    {
+      j = 0;
+    }
+    else {
+        j++;
+    }
+    return setImg1();
+  }
+    function setImg1()
+    {
+      var y= image1[j];
+      console.log(y);
+     document.slider2.src=y;
+    }
+
+
+    </script>
+
+  </head>
+  <body>
+    <br>
+    <div class="NavBar">
+        <ul id="NavItems">
+
+          <li><a href="Homepage.html">Home Page</a></li>
+          <li><a href="AboutMe.html">About me</a></li>
+          <li><a href="PlacesVisited.html">Places visited</a></li>
+          <li><a href="MyHobbies.html">My Hobbies</a></li>
+          <li><a href="Proffesional_Life.html">Proffesional Life</a></li>
+          <li><a href="Contactme.html">Contact me</a></li>
+          <li><a href="CV.xml">My CV</a></li>
+        </ul>
+      </div>
+    <br>
+    <h1>Places i have visited</h1>
+    <div class="P1">
+      <div class="nes-container is-dark with-title">
+        <p class="title">Hong kong</p>
+        <img id="hongkong" src="Assets/hon1.jpeg" alt="HongKong" width="300" height="400">
+          <p>Hong kong is a pretty city and is now under administrative rule of the Chinese government. The country is very clean and green with the flora and fauna spread around. <br>
+          Unlike mainland china Hongkong is more of a tourist spot with attractions such as casinos, bars shopping centers all over the city. </p>
+          <br>
+
+        <p>The main attraction in hongkong are the Big Buddah Temple and DisneyLand. The buddah temple is the biggest in the world as the Buddism is the main religion followed in mainland china.</p>
+        <br>
+          <p>The city is also infamous for its construction which result in huge sky scrappers which seem like they are about to touch the sky</p>
+      </div>
+      <br>
+      <div class="nes-container is-dark with-title">
+        <p class="title">Bangkok</p>
+
+      <div class="slider">
+			     <div class="img-box">
+				         <img src='Assets/Bang1.jpeg' name="slider" width="300" height="400">
+			     </div>
+           <br>
+			        <button class="btn" onclick="prev()">&lt</button>
+              &nbsp &nbsp &nbsp &nbsp &nbsp
+			        <button class="btn" onclick="next()">&gt</button>
+		</div>
+
+
+        <p>Bangkok is a state that comes under thailand it is one of the best tourist hubs if your going to enjoy and have a relaxing getaway with freinds and family.</p>
+        <br>
+        <p>The cuisine the night life the art or maybe the countless buddisst temples there is always something intresting.
+          <br> The nightlife in bangkok is very nice it is as if the city never sleeps even at 3am you can
+          <br> see people roaming around like its noon.</p>
+
+          <p>The beaches in the city are breath-taking however the best beaches can be found in a nearbyneighbouring city called pataya which is only 4 hours of drive from bangkok.</p>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+      </div>
+      <br>
+      <div class="nes-container is-dark with-title">
+        <p class="title">Malaysia</p>
+        <div class="slider2">
+             <div class="img-box">
+                   <img src='Assets/Mal1.jpeg' name="slider2" width="300" height="400">
+             </div>
+             <br>
+                <button class="btn" onclick="prev1()">&lt</button>
+                &nbsp &nbsp &nbsp &nbsp &nbsp
+                <button class="btn" onclick="next1()">&gt</button>
+      </div>
+      <p>Malaysia is a predominant muslim country and sharing its deep roots with islam. The country is very multi-cultural with major influences from India,China and Indonesian.</p>
+      <br>
+      <p>Malaysian cusisine is very flavorful and also reflects the multi-ethnic makeup of its population. Some of the main Malaysian cusisine dishes are  nasi briyani, nasi minyak, lamb soup, kurma daging.</p>
+      <br>
+      <p>The country has also taken influences from the western world with mnalls, shopping centers and tall buildings an expmple being the Petronas Towers</p>
+      <br>
+      <br>
+      <br>
+      <br>
+      </div>
+    </div>
+
+  </body>
+</html>

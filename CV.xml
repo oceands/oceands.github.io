@@ -1,0 +1,62 @@
+
+<?xml-stylesheet type="text/xsl" href="CV.xsl"?>
+<CV>
+
+<personal>
+<name>Ocean Dsouza</name>
+<dob>6/8/2000</dob>
+<sex>Male</sex>
+
+<about>I would like to introduce myself as a student who is currently pursuing his bachelor's at the University of Wollongong in Dubai. I have worked on many projects with the assistance of many professors in the university. I have also participated a lot in the university among my peers, helping them out and peer tutoring them for advanced subjects. I specialize in JAVA, C++, C#, and most of the code I write considers all the use cases and is perfect. </about>
+<tagline>Work smart not hard</tagline>
+</personal>
+
+<Education>
+
+<qualification>
+<title>Schooling</title>
+<years>2005-2019</years>
+<school>Our Own English High School Sharjah</school>
+<CGPA>8.0</CGPA>
+</qualification>
+
+<qualification>
+<title>University</title>
+<years>2019-2023</years>
+<university>University of wollongong in Dubai</university>
+<CGPA>3.0</CGPA>
+</qualification>
+
+</Education>
+
+
+<Links>
+<link1>Instagram</link1>
+<link2>Github</link2>
+<link3>Facebook</link3>
+<link4>Whatsapp</link4>
+</Links>
+
+<Contact>
+  <mobile>0503605417</mobile>
+  <Email>oceandsouza@yahoo.com</Email>
+  <Address>Al Maysaloon, Sharjah Behind Adnoc Petrol Station, Diyar Awkaf Building</Address>
+</Contact>
+
+<Experiance>
+  <exp>
+    <name>Sun and Sands</name>
+    <location>Mirdif City Center</location>
+    <Date>August 2021 - December 2021</Date>
+    <Title>Inventory Management</Title>
+    <Responsibilities>
+          <res1>Organising Data from sales, inbound and outbound on MySql.</res1>
+          <res2>Scanning items which have come from inbound.</res2>
+          <res3>Creating Clearnece stock list at the end of each week.</res3>
+          <res4>Esuring there is availability of stock for runners.</res4>
+    </Responsibilities>
+  </exp>
+</Experiance>
+
+
+</CV>

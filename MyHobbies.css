@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Righteous&display=swap');
+@import url('https://unpkg.com/nes.css@2.3.0/css/nes.min.css');
+
+body{
+  margin: 0;
+  padding:0;
+  background-image:url('Assets/maxresdefault (1).jpg');
+  background-repeat: repeat;
+}
+
+#NavItems
+{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+background-color: #1d1135;
+
+}
+li
+{
+  display: inline-block;
+
+}
+
+li a
+{
+
+  text-decoration: none;
+  width:px;
+  color: white;
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+
+  border-color: black;
+
+}
+
+li a:hover
+{
+color: #a473d8;
+  text-decoration: none;
+}
+
+.Text1{
+  padding: 15px;
+  height: 770px;
+  width: 1300px;
+  background-color:#7b337d;
+  margin:auto;
+  border-radius: 10px;
+}
+
+ h1{
+   text-align: center;
+   font-size: 30px;
+   color: white;
+ }
+
+ #icon,#icon2,#icon3,#icon4,#icon5,#icon6{
+   height: 120px;
+   width: 120px;
+   border-radius: 100%;
+   border-width: 2px;
+   border-color: black;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ td{
+   color: white;
+   text-align: center;
+   border: solid white 4px;
+ }
+
+ table{
+   background-color: #28242c;
+   border-color: white;
+   border-style: ridge;
+   border: solid white 4px;
+ }

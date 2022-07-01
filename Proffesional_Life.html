@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Proffesional_Life.css">
+    <title>Proffesional Life</title>
+
+    <script type="text/javascript">
+
+    function getGradesAJAX()
+    {//this function creates a request of type XHTTP  and retrives the JSON file and checks if the "ready State is finished and response is ready" and if the status is "OK"
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("GET", "Grades.json", true);
+      xhttp.send();
+        xhttp.onreadystatechange = function() {
+        if (xhttp.readyState == 4 && xhttp.status == 200)
+        {
+            processResult(xhttp);
+        }
+      };
+
+    }
+
+    function processResult(xhttp)
+    {//This function will take the jsonText raw from the file and then using JSON.parse() create objects of JS then it calls the display function
+        var jsonText = xhttp.responseText;
+        var gradesObj = JSON.parse(jsonText);
+        display(gradesObj);
+
+  }
+
+  function display(gradesObj)
+  {
+
+var html ="<h1 style=\"color:white;text-align:center;\">Grades (2019-2022)</h1><br></br>";
+html += "<table class=\"nes-table is-bordered is-centered\" style=\"    margin-left: auto;margin-right: auto;\" >";
+html += "<thead><tr><th>ID</th><th>YEAR</th><th>SUBJECT</th><th>MARK</th><th>GRADE</th></tr></thead>";
+for(var i=0; i<gradesObj.Grades.length; i++)
+  {
+    html += "<tr>";
+    html += "<td>" + gradesObj.Grades[i].ID + "</td>";
+    html += "<td>" + gradesObj.Grades[i].YEAR + "</td>";
+    html += "<td>" + gradesObj.Grades[i].SUB + "</td>";
+    html += "<td>" + gradesObj.Grades[i].MARK + "</td>";
+    html += "<td>" + gradesObj.Grades[i].GRADE + "</td>";
+    html += "</tr>";
+  }
+  html += "</table>";
+
+var Subject_list = document.getElementById("Subject_list");
+Subject_list.innerHTML = html;
+
+
+
+  }
+
+
+    </script>
+
+  </head>
+  <body>
+
+    <br>
+    <div class="NavBar">
+        <ul id="NavItems">
+
+          <li><a href="Homepage.html">Home Page</a></li>
+          <li><a href="AboutMe.html">About me</a></li>
+          <li><a href="PlacesVisited.html">Places visited</a></li>
+          <li><a href="MyHobbies.html">My Hobbies</a></li>
+          <li><a href="Proffesional_Life.html">Proffesional Life</a></li>
+          <li><a href="Contactme.html">Contact me</a></li>
+          <li><a href="CV.xml">My CV</a></li>
+        </ul>
+      </div>
+    <br>
+
+    <div class="Text1" id="chartdiv">
+      <div class="nes-container is-dark with-title">
+        <p class="title">Notable Projects</p>
+        <p>I have worked on countless projects throughout my life as a student <br>
+        However some of my key projects are:</p>
+        <div class="lists">
+          <ul class="nes-list is-circle">
+          <li>- Creating a Bloom filter for password checking from scratch. CSIT262(2021)</li>
+          <li>- Clemenceau Medical  Center  Emmployee management system Project Management. CSIT214(2021)</li>
+          <li>- ICU Triage simulation using JAVA MODELING TOOL. CSIT203(2021)</li>
+          <li>- Employee Management System using JAVA. CSIT121(2021)</li>
+          <li>- Creation of network using PACKETRACER.  CSIT127(2020)</li>
+          <li>- Chained hashing coding using JAVA CSIT203(2021)</li>
+        </ul>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <a href="Assets/SampleCV.docx" Download><button type="button" class="nes-btn is-primary">Download my CV</button></a>
+      <br>
+      <br>
+      <div class="Mark sheet">
+        <div class="Button">
+          <button type="button" class="nes-btn is-primary" name="Marks_button" onclick="getGradesAJAX(); document.getElementById('chartdiv').style.height = '1620px';">View Marks</button>
+        </div>
+        <br>
+        <br>
+
+        <div class="nes-table-responsive" >
+          <div id="Subject_list">
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </body>
+</html>

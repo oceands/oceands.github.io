@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, html{
+  height: 100%;
+  margin: 0;
+  padding:0;
+}
+
+
+
+.leftSeg{
+  background-image: url('Assets/HOME1 (2).jpeg');
+   background-repeat:no-repeat;
+  background-color: black;
+  width: 40%;
+  float: left;
+  height: 100%;
+}
+
+
+.rightSeg{
+  background-image: url('Assets/maxresdefault (1).jpg');
+  color: white;
+  background-color: black;
+  width: 60%;
+  float: left;
+  height:100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: center;
+}
+#head1{
+  font-size: 55px;
+ color: #0073ed;
+ font-family: 'Press Start 2P', cursive;
+ text-shadow: 0px 0px 0 rgb(-10,105,227),
+              0px 1px 0 rgb(-20,95,217),
+              0px 2px 0 rgb(-29,86,208),
+              0px 3px 0 rgb(-39,76,198),
+              0px 4px 0 rgb(-49,66,188),
+              0px 5px 0 rgb(-59,56,178),
+              0px 6px 0 rgb(-69,46,168),
+              0px 7px 0 rgb(-78,37,159),
+              0px 8px 0 rgb(-88,27,149),
+              0px 9px 0 rgb(-98,17,139),
+              0px 10px  0 rgb(-108,7,129),
+              0px 11px 10px rgba(0,0,0,0.34),
+              0px 11px 1px rgba(0,0,0,0.5),
+              0px 0px 10px rgba(0,0,0,.2);
+    text-align: center;
+}
+#head2,#H_button{
+  font-family: 'Press Start 2P';
+  text-align:center;
+  color: #a8e5fd;
+}
+.Land_text{
+padding-top: 400px;
+}
+
+#H_button{
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border-radius:5px;
+  border-width: medium;
+  border-color:#a8e5fd;
+}
+
+#H_button:hover{
+  background-color: white;
+  color: black;
+  border-color:white;
+}

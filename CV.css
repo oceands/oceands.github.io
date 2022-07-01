@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Righteous&display=swap');
+@import url('https://unpkg.com/nes.css@2.3.0/css/nes.min.css');
+
+body{
+  margin: 0;
+  padding:0;
+  background-image:url('Assets/maxresdefault (1).jpg');
+  background-repeat: repeat;
+  letter-spacing: 1px;
+}
+
+#NavItems
+{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+background-color: #1d1135;
+
+}
+li
+{
+  display: inline-block;
+
+}
+
+li a
+{
+
+  text-decoration: none;
+  width:px;
+  color: white;
+  display: block;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+
+  border-color: black;
+
+}
+li a:hover
+{
+color: #a473d8;
+  text-decoration: none;
+}
+
+
+.Box{
+  padding: 20px;
+ height: 1600px;
+ width: 1300px;
+ background-color:#7b337d;
+margin:auto;
+margin-top: 15px;
+ border-radius: 10px;
+}
+
+.LeftSeg{
+    width: 500px;
+    float: left;
+    padding: 10px;
+    border-right: 10px;
+    border-color: white;
+    background-color: #1d1135;
+    color: white;
+}
+.RightSeg{
+    width: 630px;
+    border-right: 10px;
+    border-color: white;
+      float: left;
+      padding-left: 20px;
+
+}
+
+#PP{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.Links li{
+  text-align: center;
+
+}
+
+#Coltit1,#Coltit2,#Coltit3
+{
+color: #a473d8;
+}
