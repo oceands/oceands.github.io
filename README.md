@@ -70,11 +70,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Feel free to reach out to me via the following platforms:
 
 - **Email:** [oceands@outlook.com](mailto:oceands@outlook.com)
-- **GitHub:** [Your GitHub Profile](https://github.com/oceands)
+- **GitHub:** [oceands](https://github.com/oceands)
 
----
-
-Thank you for visiting my portfolio project! If you have any questions or feedback, don't hesitate to get in touch.
-```
-
-Feel free to customize the placeholders with your actual information and add any additional sections you find necessary.
