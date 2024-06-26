@@ -31,10 +31,6 @@ The Portfolio project is a personal website designed to highlight my skills, pro
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **React**
-- **Node.js**
-- **Express**
-- **MongoDB**
 
 ## Installation
 
